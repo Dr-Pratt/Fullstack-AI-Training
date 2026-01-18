@@ -22,19 +22,13 @@ Your complete training package includes:
 fullstack-ai-training/
 ├── README.md                          ← Overview of entire program
 ├── START-HERE.md                      ← This file - your starting point!
-├── PDF-GENERATION-INSTRUCTIONS.md     ← How to create PDFs
+├── CONTRIBUTING.md                    ← How to contribute to the program
 ├── CONTEXT.md                         ← Program context for AI expansion
 ├── HOW-TO-USE-AI-WHEN-STUCK.md       ← Critical guide for learning
 │
-├── markdown/                          ← Source training materials
+├── markdown/                          ← Training program content
 │   ├── FULLSTACK_AI_ENGINEER_TRAINING_PROGRAM.md (Part 1: Weeks 1-6)
 │   └── TRAINING_PROGRAM_PART2_PHASES_AND_RESOURCES.md (Part 2: Weeks 7-16)
-│
-├── pdfs/                              ← Generated PDFs (create these)
-│   ├── 00-Complete-Training-Program.pdf
-│   ├── 01-Part1-Foundations-Backend.pdf
-│   ├── 02-Part2-Advanced-Portfolio.pdf
-│   └── 03-How-To-Use-AI-When-Stuck.pdf
 │
 ├── templates/                         ← Copy-paste templates
 │   ├── daily-journal-template.md
@@ -42,11 +36,9 @@ fullstack-ai-training/
 │   ├── project-readme-template.md
 │   └── prompting-cheatsheet.md
 │
-├── tracking/                          ← Progress tracking tools
-│   ├── weekly-checklist.md           (Print and check off)
-│   └── portfolio-quick-checklist.md  (For each project)
-│
-└── generate-pdfs.sh                   ← Script to create PDFs
+└── tracking/                          ← Progress tracking tools
+    ├── weekly-checklist.md           (Print and check off)
+    └── portfolio-quick-checklist.md  (For each project)
 ```
 
 ---
@@ -55,22 +47,19 @@ fullstack-ai-training/
 
 ### Step 1: Choose How You Want to Read (5 minutes)
 
-**Option A: Read Markdown Files** (Recommended for coding along)
+**Option A: Read Markdown Files** (Recommended)
 - Open files in VS Code, Typora, or any markdown reader
 - Easy to copy-paste code
 - All links work
 - Can make notes directly
+- Editable and customizable
 
-**Option B: Generate PDFs** (Better for reading/printing)
-- Follow instructions in `PDF-GENERATION-INSTRUCTIONS.md`
-- Run `./generate-pdfs.sh` (after installing pandoc)
-- Great for tablets, offline reading, highlighting
-
-**Option C: Upload to GitHub** (Best for public portfolio)
+**Option B: Upload to GitHub** (Great for public portfolio)
 - Create GitHub repo
 - Push this folder
 - GitHub renders markdown beautifully
 - Share progress publicly
+- Track your commits and contributions
 
 ### Step 2: Read the README (10 minutes)
 - Open `README.md`
@@ -176,7 +165,7 @@ By end of 16 weeks, you will have:
 
 ## 📖 How to Use Different Materials
 
-### Training Program (Markdown/PDF)
+### Training Program (Markdown)
 **Read sequentially, week by week:**
 1. Read the week's overview
 2. Follow step-by-step instructions
@@ -302,29 +291,22 @@ You're building a new future.
 
 ### Your Next Steps (Right Now!)
 
-1. **Generate PDFs** (if you want them):
-   ```bash
-   cd fullstack-ai-training
-   ./generate-pdfs.sh
-   ```
-   Or follow `PDF-GENERATION-INSTRUCTIONS.md`
+1. **Open the training materials**:
+   - Open `markdown/FULLSTACK_AI_ENGINEER_TRAINING_PROGRAM.md` in VS Code or your preferred markdown reader
+   - Press `Cmd/Ctrl+Shift+V` for preview mode in VS Code
 
-2. **Open the training materials**:
-   - PDF: Open `pdfs/01-Part1-Foundations-Backend.pdf`
-   - Or Markdown: Open `markdown/FULLSTACK_AI_ENGINEER_TRAINING_PROGRAM.md`
-
-3. **Go to Week 1, Day 1**:
+2. **Go to Week 1, Day 1**:
    - Read "Phase 0: Environment Setup & Foundations"
    - Start with Section 0.1: Development Environment Setup
    - Follow step-by-step instructions
 
-4. **Create your learning journal**:
+3. **Create your learning journal**:
    - Copy `templates/daily-journal-template.md`
    - Create `learning-journal` folder
    - Create `day-1.md`
    - Start logging!
 
-5. **Join communities** (optional but recommended):
+4. **Join communities** (optional but recommended):
    - r/learnprogramming on Reddit
    - Developer Discord servers
    - Local tech meetups (meetup.com)

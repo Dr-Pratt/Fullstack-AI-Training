@@ -34,7 +34,7 @@ fullstack-ai-training/
 │   │   • For AI assistants expanding program
 │   │   • Understanding program structure
 │   │
-│   └── PDF-GENERATION-INSTRUCTIONS.md      ← Generate PDFs (optional)
+│   └── CONTRIBUTING.md                     ← How to contribute to the program
 │
 ├── 📝 TEMPLATES (Copy & Use)
 │   ├── templates/
@@ -43,16 +43,10 @@ fullstack-ai-training/
 │   │   ├── project-readme-template.md     ← For GitHub projects
 │   │   └── prompting-cheatsheet.md        ← Quick prompt reference
 │
-├── ✅ TRACKING TOOLS
-│   ├── tracking/
-│   │   ├── weekly-checklist.md            ← Week-by-week tasks
-│   │   └── portfolio-quick-checklist.md   ← Per-project quality check
-│
-├── 🔧 PDF GENERATION SCRIPTS (Optional)
-│   ├── generate-pdfs.sh                    ← Full-featured PDFs (needs LaTeX)
-│   └── generate-pdfs-simple.sh             ← Simple PDFs (pandoc only)
-│
-└── 📂 pdfs/                                 ← Generated PDFs go here
+└── ✅ TRACKING TOOLS
+    └── tracking/
+        ├── weekly-checklist.md            ← Week-by-week tasks
+        └── portfolio-quick-checklist.md   ← Per-project quality check
 ```
 
 ---
@@ -82,44 +76,16 @@ fullstack-ai-training/
    - Open `.md` files
    - Live preview mode
 
-**Why markdown is better for learning:**
+**Why markdown is great for learning:**
 - ✅ Easy to copy-paste code
 - ✅ All hyperlinks work
 - ✅ Can add personal notes
 - ✅ Search within document (Cmd/Ctrl+F)
-- ✅ No PDF generation hassle
+- ✅ Editable and customizable
 
 ---
 
-### Option 2: Generate PDFs (Optional)
-
-**Note**: PDF generation requires additional software (LaTeX). Markdown files work great without this!
-
-**If you still want PDFs:**
-
-1. **Install LaTeX** (one-time setup):
-   ```bash
-   # Mac
-   brew install --cask basictex
-   # Wait 5-10 minutes for installation
-   # Restart terminal, then:
-   sudo tlmgr update --self
-   sudo tlmgr install collection-fontsrecommended
-   ```
-
-2. **Generate PDFs**:
-   ```bash
-   cd fullstack-ai-training
-   ./generate-pdfs.sh
-   ```
-
-**If LaTeX installation fails or you don't want it:**
-- Just use the markdown files! They're complete and easier to use for coding along.
-- Or upload to GitHub - GitHub renders markdown beautifully
-
----
-
-### Option 3: Upload to GitHub (Great for Portfolio)
+### Option 2: Upload to GitHub (Great for Portfolio)
 
 1. **Create new repository** on GitHub
 2. **Push this folder**:
@@ -348,12 +314,6 @@ Scroll to **"PHASE 0: Environment Setup & Foundations (Week 1)"**
 3. Focus on ONE thing at a time
 4. Adjust pace if needed
 5. Remember: Understanding > Speed
-
-### Problem: "PDF generation doesn't work"
-**Solution**:
-- **You don't need PDFs!** The markdown files work perfectly
-- Read in VS Code, Typora, or upload to GitHub
-- PDFs are optional extra, not required
 
 ---
 
