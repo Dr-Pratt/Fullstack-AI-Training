@@ -8,11 +8,8 @@
 ```
 fullstack-ai-training/
 ├── README.md (this file)
-├── pdfs/                                    # PDF versions for easy reading
-│   ├── 00-Complete-Training-Program.pdf    # Full program in one PDF
-│   ├── 01-Part1-Foundations-Backend.pdf    # Weeks 1-6
-│   └── 02-Part2-Advanced-Portfolio.pdf     # Weeks 7-16
-├── markdown/                                # Source markdown files
+├── CONTRIBUTING.md                          # How to contribute
+├── markdown/                                # Training program content
 │   ├── FULLSTACK_AI_ENGINEER_TRAINING_PROGRAM.md
 │   └── TRAINING_PROGRAM_PART2_PHASES_AND_RESOURCES.md
 ├── templates/                               # Reusable templates
@@ -31,28 +28,23 @@ fullstack-ai-training/
 
 ## 🎯 Quick Start
 
-### For Non-Technical Reading:
+**Start here** → Open the markdown files in the `markdown/` folder:
 
-**Start here** → Open the PDFs in the `pdfs/` folder:
+1. **`FULLSTACK_AI_ENGINEER_TRAINING_PROGRAM.md`** - Complete 16-week training program
+2. **`TRAINING_PROGRAM_PART2_PHASES_AND_RESOURCES.md`** - Advanced phases and additional resources
 
-1. **`00-Complete-Training-Program.pdf`** - Full 16-week program (comprehensive)
-2. **`01-Part1-Foundations-Backend.pdf`** - First 6 weeks (setup, Java, Node.js, Python)
-3. **`02-Part2-Advanced-Portfolio.pdf`** - Last 10 weeks (Frontend, AI, Agents, Portfolio)
+### How to Read
 
-All PDFs have clickable links to external resources!
-
-### For Technical Reading:
-
-Markdown files in `markdown/` folder can be viewed in:
-- VS Code (with Markdown Preview)
-- GitHub (auto-rendered)
-- Any text editor
+Markdown files can be viewed in:
+- **GitHub** - Auto-rendered with formatting (recommended for online viewing)
+- **VS Code** - Use Markdown Preview (Cmd/Ctrl + Shift + V)
+- **Any text editor** - For editing and customization
 
 ---
 
-## 📋 What's Included
+## 📋 Program Overview
 
-### Training Program Components
+### Training Program Phases
 
 **Phase 0 (Week 1)**: Environment Setup & Foundations
 - Mac/Windows development environment
@@ -185,7 +177,7 @@ Markdown files in `markdown/` folder can be viewed in:
 
 ### Week-by-Week Approach
 
-1. **Read the relevant week's section** in the PDF
+1. **Read the relevant week's section** in the markdown files
 2. **Follow the learning path** (includes AI prompts to use)
 3. **Complete hands-on exercises** (code every day)
 4. **Build the weekly project** (adds to portfolio)
@@ -282,14 +274,15 @@ By the end of 16 weeks, you will have:
 
 ## 📞 Support & Resources
 
-### Included in This Package
-- ✅ Complete training curriculum (600+ pages)
+### Included in This Repository
+- ✅ Complete 16-week training curriculum
 - ✅ 200+ AI prompts (copy-paste ready)
 - ✅ Code templates for all stacks
 - ✅ Progress tracking templates
 - ✅ Success metrics framework
 - ✅ Interview preparation guide
 - ✅ Resource appendix with 100+ links
+- ✅ Contributing guidelines for community improvements
 
 ### External Resources (Free)
 - Google Developer Program (free tier)
@@ -309,7 +302,7 @@ By the end of 16 weeks, you will have:
 ## 🚀 Getting Started
 
 ### Step 1: Setup
-Open **`pdfs/01-Part1-Foundations-Backend.pdf`** → Week 1 section
+Open **`markdown/FULLSTACK_AI_ENGINEER_TRAINING_PROGRAM.md`** → Week 1 section
 
 Follow instructions to:
 1. Set up development environment (Mac/Windows)
@@ -344,32 +337,20 @@ Use templates in `tracking/` folder:
 
 ## 📄 Files Description
 
-### PDFs (Ready to Read)
-
-**`00-Complete-Training-Program.pdf`** (Recommended)
-- Full program in one document
-- All 16 weeks covered
-- Clickable table of contents
-- All hyperlinks functional
-- Best for: Printing, offline reading
-
-**`01-Part1-Foundations-Backend.pdf`**
-- Weeks 1-6
-- Environment setup through multi-language backend
-- Good for: Starting the program, focused reading
-
-**`02-Part2-Advanced-Portfolio.pdf`**
-- Weeks 7-16
-- Frontend, AI, agents, portfolio, interviews
-- Good for: Second half of program
-
-### Markdown Files (Source)
+### Training Content
 
 Located in `markdown/` folder:
-- Editable source files
-- Can be modified for personal needs
-- Better for GitHub viewing
-- Can be converted to other formats
+
+**`FULLSTACK_AI_ENGINEER_TRAINING_PROGRAM.md`**
+- Complete 16-week training program
+- All phases from setup to interview prep
+- Comprehensive curriculum with AI prompts
+- Best for: Following the complete program
+
+**`TRAINING_PROGRAM_PART2_PHASES_AND_RESOURCES.md`**
+- Advanced phases and additional resources
+- Supplementary materials and guides
+- Best for: Deep dives into specific topics
 
 ### Templates
 
@@ -405,6 +386,44 @@ To request updates or ask questions:
 1. Review `CONTEXT.md` for program philosophy
 2. Use the same AI prompting techniques taught in program
 3. Reference specific sections for expansion
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Whether you've found a typo, want to add a helpful resource, or have improvements to suggest, your input is valued.
+
+### How to Contribute
+
+1. **Fork the repository** - Create your own copy
+2. **Create a branch** - `git checkout -b feature/your-improvement`
+3. **Make your changes** - Follow our style guidelines
+4. **Commit** - Use clear commit messages
+5. **Push** - `git push origin feature/your-improvement`
+6. **Open a Pull Request** - Describe your changes
+
+### Contribution Ideas
+
+- Fix typos or improve documentation clarity
+- Add helpful resources or tutorials
+- Suggest additional AI prompts or examples
+- Improve templates or tracking tools
+- Update content for latest technology versions
+
+**Please read our [Contributing Guidelines](CONTRIBUTING.md)** for detailed instructions on:
+- Branch naming conventions
+- Commit message format
+- PR submission process
+- Code review expectations
+- Style guidelines
+
+### Questions or Issues?
+
+- **Found a bug?** Open an issue
+- **Have a question?** Check existing issues or open a discussion
+- **Want to add something major?** Open an issue first to discuss
+
+Your contributions help make this training program better for everyone!
 
 ---
 
@@ -454,7 +473,7 @@ Please provide:
 
 **Ready to transform into a Full Stack AI Engineer?**
 
-**Start with**: `pdfs/01-Part1-Foundations-Backend.pdf` → **Week 1: Environment Setup**
+**Start with**: `markdown/FULLSTACK_AI_ENGINEER_TRAINING_PROGRAM.md` → **Week 1: Environment Setup**
 
 🚀 **Let's build something amazing!**
 
